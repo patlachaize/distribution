@@ -48,7 +48,7 @@ values('Parpaings',200,4);
 insert into produits(description,poids,vil_num)
 values('Truc lourd',500,2);
 
-insert into camions (cmn_num, charge, charge_max) values (1,450,0);
+insert into camions (cmn_num, charge, charge_max) values (1,0,450);
 
 select * from villes;
 select * from produits;
